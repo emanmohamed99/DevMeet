@@ -1,0 +1,44 @@
+.conversation{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.conversation:hover{
+    background-color:#c7a7e6;
+    /* margin-top: 5px; */
+    border-radius: 15px;
+}
+.conversationImg{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+object-fit: cover;
+margin-right: 20px;
+}
+.conversationName{
+    font-weight: 800;
+    font-size: larger;
+}
+@media screen and (max-width:700px){
+    .conversationName{
+        font-weight: 600;
+        font-size: medium;
+    }
+    .conversationImg{
+        width: 20px;
+        height: 20px;
+        }
+        .conversation:hover{
+            width: max-content;
+             border-radius: 15px;
+         }
+
+         .conversation:hover{
+            background-color:#c7a7e6;
+            /* margin-top: 5px; */
+            border-radius: 15px;
+            width: 100%;
+        }
+
+}
